@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 13, 13);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(152, 146, 146);
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+.nav-bar ul li{
+    display: inline;
+    font-weight: 500;
+    margin: 1.5rem;
+    color: rgb(236, 207, 207);
+}
+.nav-bar a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.containers {
+    color: rgb(226, 212, 212);
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 1.5rem;
+}
+
+input {
+    font-size: 20px;
+    background: black;
+    color: rgb(235, 192, 192);
+    border: none;
+    outline: none;
+    line-height: 3rem;
+    border-bottom: 2px solid #ccc;
+}
+input::placeholder{
+    color: rgb(232, 193, 193);
+}
+
+#error #success {
+    display: none;
+}
+
+#btn {
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-2 {
+    color: rgb(218, 200, 200);
+    width: 500px;
+    height: 400px;
+    margin: 80px;
+}
+li:hover{
+    background-color: chocolate;
+    border-radius: 3px;
+}
+p:hover{
+background-color: chocolate;
+}
+
+.para div {
+    padding-top: 30px;
+    font-size: 30px;
+}
+.para p {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.logbtn {
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
